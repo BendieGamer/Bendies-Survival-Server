@@ -1,0 +1,1 @@
+Excalibur:  material: DIAMOND_SWORD  drop-entity: COW  drop-chance: 15  min-level: 50  upgrade-price: 10  power:    0: 1    1: 2    2: 2    3: 3    4: 3    5: 4    6: 6    7: 8    8: 9    9: 12

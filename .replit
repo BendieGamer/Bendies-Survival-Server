@@ -1,0 +1,43 @@
+run = ["bash", "main.sh"]
+
+entrypoint = "main.sh"
+
+[nix]
+channel = "stable-22_11"
+
+[deployment]
+run = ["sh", "-c", "bash main.sh"]
+deploymentTarget = "gce"
+
+[languages]
+
+[languages.bash]
+pattern = "**/{*.sh,*.bash}"
+
+[languages.bash.languageServer]
+start = "bash-language-server start"
+
+[[ports]]
+localPort = 80
+externalPort = 3001
+
+[[ports]]
+localPort = 443
+externalPort = 3000
+
+[[ports]]
+localPort = 8080
+externalPort = 80
+
+[[ports]]
+localPort = 8081
+
+[[ports]]
+localPort = 25565
+
+[[ports]]
+localPort = 25577
+
+[objectStorage]
+defaultBucketID = "replit-objstore-181f704f-4e32-47d0-a720-e6e535b7baa1"
+
