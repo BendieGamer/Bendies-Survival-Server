@@ -1,0 +1,5 @@
+extract-js: 
+  plugins: false
+  modules: false
+  lib: false
+  www: false

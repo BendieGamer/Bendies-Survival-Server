@@ -3,11 +3,11 @@ listener_01:
   address_v6: 'null'
   max_players: 60
   tab_list: GLOBAL_PING
-  default_server: server
-  force_default_server: true
+  default_server: survival
+  force_default_server: false
   forward_ip: true
   forward_ip_header: X-Forwarded-For
-  redirect_legacy_clients_to: 'null'
+  redirect_legacy_clients_to: 'wss://Bendies-Survival-Server.bendiereal.repl.co/old'
   server_icon: server-icon.png
   server_motd:
   - '&5bendies fun server'

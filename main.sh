@@ -8,8 +8,6 @@ unset DISPLAY
 
 echo "set -g mouse on" > ~/.tmux.conf
 
-sed -i "s/^  redirect_legacy_clients_to: .*\$/  redirect_legacy_clients_to: 'wss:\/\/$REPL_SLUG.$REPL_OWNER.repl.co\/old'/" bungee/plugins/EaglercraftXBungee/listeners.yml
-
 tmux kill-session -t server
 # Restart Caddyserver, portforwarding 8081 for Eaglercraft.
 cd ./Caddy

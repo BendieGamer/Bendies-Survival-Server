@@ -17,12 +17,17 @@ pattern = "**/{*.sh,*.bash}"
 [languages.bash.languageServer]
 start = "bash-language-server start"
 
+[objectStorage]
+defaultBucketID = "replit-objstore-181f704f-4e32-47d0-a720-e6e535b7baa1"
+
 [[ports]]
 localPort = 80
-externalPort = 3001
 
 [[ports]]
 localPort = 443
+
+[[ports]]
+localPort = 7070
 externalPort = 3000
 
 [[ports]]
@@ -37,7 +42,4 @@ localPort = 25565
 
 [[ports]]
 localPort = 25577
-
-[objectStorage]
-defaultBucketID = "replit-objstore-181f704f-4e32-47d0-a720-e6e535b7baa1"
 

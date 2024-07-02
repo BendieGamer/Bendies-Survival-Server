@@ -1,157 +1,193 @@
-[18:44:39] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[18:44:39] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
-[18:44:39] [Server thread/INFO]: Loading properties
-[18:44:39] [Server thread/INFO]: Default game type: SURVIVAL
-[18:44:40] [Server thread/INFO]: This server is running PandaSpigot version git-PandaSpigot-114 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT) (Git: 1fdab7c)
-[18:44:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:44:40] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[18:44:40] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:44:40] [Server thread/INFO]: Debug logging is disabled
-[18:44:40] [Server thread/INFO]: Data value allowed items: 
-[18:44:40] [Server thread/INFO]: Generating keypair
-[18:44:40] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[18:44:40] [Server thread/INFO]: Using epoll channel type
-[18:44:40] [Server thread/ERROR]: Ambiguous plugin name `EaglerPluginInstaller' for files `plugins/EaglerPluginInstaller.jar' and `plugins/EaglerPluginInstaller-1.1.5.jar' in `plugins'
-[18:44:40] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[18:44:40] [Server thread/INFO]: [LogMeIn] Loading LogMeIn v1.0
-[18:44:40] [Server thread/INFO]: [[EaglerPluginInstaller]] Loading EaglerPluginInstaller v1.1.4
-[18:44:40] [Server thread/INFO]: [myRPG] Loading myRPG v1.2.0.9
-[18:44:40] [Server thread/INFO]: [mcMMO] Loading mcMMO v1.4.06-b2121
-[18:44:40] [Server thread/INFO]: [[EaglerPluginUpdater]] Loading EaglerPluginUpdater v1.1.2
-[18:44:40] [Server thread/INFO]: [mcMMO] Enabling mcMMO v1.4.06-b2121
-[18:44:40] [Server thread/ERROR]: [mcMMO] There was an error while enabling mcMMO!
-[18:44:40] [Server thread/WARN]: java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
-[18:44:40] [Server thread/WARN]: 	at com.gmail.nossr50.mcMMO.onEnable(mcMMO.java:121)
-[18:44:40] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
-[18:44:40] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
-[18:44:40] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:454)
-[18:44:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:393)
-[18:44:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:352)
-[18:44:40] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:237)
-[18:44:40] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:603)
-[18:44:40] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.lambda$spin$0(MinecraftServer.java:133)
-[18:44:40] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:750)
-[18:44:40] [Server thread/INFO]: [mcMMO] Disabling mcMMO v1.4.06-b2121
-[18:44:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:44:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:44:40] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[18:44:40] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[18:44:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:44:40] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[18:44:40] [Server thread/INFO]: Preparing level "world"
-[18:44:40] [Server thread/INFO]: -------- World Settings For [world] --------
-[18:44:40] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[18:44:40] [Server thread/INFO]: Clear tick list: false
-[18:44:40] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:44:40] [Server thread/INFO]: Anti X-Ray: true
-[18:44:40] [Server thread/INFO]: 	Engine Mode: 1
-[18:44:40] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[18:44:40] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[18:44:40] [Server thread/INFO]: Mob Spawn Range: 4
-[18:44:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:44:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:44:40] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:44:40] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:44:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:44:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:44:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:44:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:44:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:44:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[18:44:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:44:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[18:44:40] [Server thread/INFO]: Random Lighting Updates: false
-[18:44:40] [Server thread/INFO]: Structure Info Saving: true
-[18:44:40] [Server thread/INFO]: Sending up to 10 chunks per packet
-[18:44:40] [Server thread/INFO]: Max Entity Collisions: 8
-[18:44:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[18:44:40] [Server thread/INFO]: Max TNT Explosions: 100
-[18:44:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:44:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:44:40] [Server thread/INFO]: View Distance: 10
-[18:44:40] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:44:40] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:44:40] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:44:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:44:40] [Server thread/INFO]: -------- World Settings For [world] --------
-[18:44:40] [Server thread/INFO]: Keep spawn chunk loaded: true
-[18:44:40] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[18:44:40] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[18:44:40] [Server thread/INFO]: World async lighting: false
-[18:44:40] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[18:44:40] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[18:44:40] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[18:44:40] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[18:44:40] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[18:44:40] [Server thread/INFO]: Water over lava flow speed: 5
-[18:44:40] [Server thread/INFO]: Fix TNT cannons: false
-[18:44:40] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[18:44:40] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[18:44:40] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[18:44:40] [Server thread/INFO]: Clear tick list: false
-[18:44:40] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:44:40] [Server thread/INFO]: Anti X-Ray: true
-[18:44:40] [Server thread/INFO]: 	Engine Mode: 1
-[18:44:40] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[18:44:40] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[18:44:40] [Server thread/INFO]: Mob Spawn Range: 4
-[18:44:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:44:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:44:40] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:44:40] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:44:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:44:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:44:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:44:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:44:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:44:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[18:44:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:44:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[18:44:40] [Server thread/INFO]: Random Lighting Updates: false
-[18:44:40] [Server thread/INFO]: Structure Info Saving: true
-[18:44:40] [Server thread/INFO]: Sending up to 10 chunks per packet
-[18:44:40] [Server thread/INFO]: Max Entity Collisions: 8
-[18:44:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[18:44:40] [Server thread/INFO]: Max TNT Explosions: 100
-[18:44:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:44:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:44:40] [Server thread/INFO]: View Distance: 10
-[18:44:40] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:44:40] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:44:40] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:44:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:44:40] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[18:44:40] [Server thread/INFO]: Keep spawn chunk loaded: true
-[18:44:40] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[18:44:40] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[18:44:40] [Server thread/INFO]: World async lighting: false
-[18:44:40] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[18:44:40] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[18:44:40] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[18:44:40] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[18:44:40] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[18:44:40] [Server thread/INFO]: Water over lava flow speed: 5
-[18:44:40] [Server thread/INFO]: Fix TNT cannons: false
-[18:44:40] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[18:44:40] [Server thread/INFO]: Preparing start region for level 0 (Seed: -5250375620225295884)
-[18:44:41] [Server thread/INFO]: Preparing start region for level 1 (Seed: -5250375620225295884)
-[18:44:41] [Server thread/INFO]: [LogMeIn] Enabling LogMeIn v1.0
-[18:44:41] [Server thread/INFO]: LogMeIn | Active
-[18:44:41] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
-[18:44:41] [Server thread/INFO]: Check 1 passed
-[18:44:42] [Server thread/INFO]: Check 3 passed
-[18:44:42] [Server thread/INFO]: --------------------------------------------
-[18:44:42] [Server thread/INFO]: --------------------------------------------
-[18:44:42] [Server thread/INFO]: [EaglerPluginInstaller] EaglerPluginInstaller V1.1.5 is now Enabled! :D
-[18:44:42] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin
-[18:44:42] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console
-[18:44:42] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main
-[18:44:42] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add
-[18:44:42] [Server thread/INFO]: --------------------------------------------
-[18:44:42] [Server thread/INFO]: --------------------------------------------
-[18:44:42] [Server thread/INFO]: [myRPG] Enabling myRPG v1.2.0.9
-[18:44:42] [Server thread/WARN]: [myRPG] You cannot use myRPG with this craftbukkit version!
-[18:44:42] [Server thread/ERROR]: Error occurred while enabling myRPG v1.2.0.9 (Is it up to date?)
+[22:07:57] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[22:07:57] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[22:07:57] [Server thread/INFO]: Loading properties
+[22:07:57] [Server thread/INFO]: Default game type: SURVIVAL
+[22:07:57] [Server thread/INFO]: This server is running PandaSpigot version git-PandaSpigot-114 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT) (Git: 1fdab7c)
+[22:07:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:07:57] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[22:07:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:07:57] [Server thread/INFO]: Debug logging is disabled
+[22:07:57] [Server thread/INFO]: Data value allowed items: 
+[22:07:57] [Server thread/INFO]: Generating keypair
+[22:07:57] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[22:07:57] [Server thread/INFO]: Using default channel type
+[22:07:57] [Server thread/ERROR]: Ambiguous plugin name `EaglerPluginInstaller' for files `plugins/EaglerPluginInstaller.jar' and `plugins/EaglerPluginInstaller-1.1.5.jar' in `plugins'
+[22:07:57] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[22:07:57] [Server thread/ERROR]: Could not load 'plugins/AdvancedNMotd1001.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: ProtocolLib
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230) ~[patched_1.8.8.jar:git-PandaSpigot-114]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:297) ~[patched_1.8.8.jar:git-PandaSpigot-114]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:236) ~[patched_1.8.8.jar:git-PandaSpigot-114]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:603) ~[patched_1.8.8.jar:git-PandaSpigot-114]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.lambda$spin$0(MinecraftServer.java:133) ~[patched_1.8.8.jar:git-PandaSpigot-114]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[22:07:58] [Server thread/ERROR]: Could not load 'plugins/playit-minecraft-plugin.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: gg/playit/minecraft/PlayitBukkit has been compiled by a more recent version of the Java Runtime (class file version 60.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[patched_1.8.8.jar:git-PandaSpigot-114]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:340) ~[patched_1.8.8.jar:git-PandaSpigot-114]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:263) ~[patched_1.8.8.jar:git-PandaSpigot-114]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:297) ~[patched_1.8.8.jar:git-PandaSpigot-114]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:236) ~[patched_1.8.8.jar:git-PandaSpigot-114]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:603) ~[patched_1.8.8.jar:git-PandaSpigot-114]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.lambda$spin$0(MinecraftServer.java:133) ~[patched_1.8.8.jar:git-PandaSpigot-114]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+Caused by: java.lang.UnsupportedClassVersionError: gg/playit/minecraft/PlayitBukkit has been compiled by a more recent version of the Java Runtime (class file version 60.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_322]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_322]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_322]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:473) ~[?:1.8.0_322]
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:74) ~[?:1.8.0_322]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:369) ~[?:1.8.0_322]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:363) ~[?:1.8.0_322]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_322]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:362) ~[?:1.8.0_322]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:102) ~[patched_1.8.8.jar:git-PandaSpigot-114]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PandaSpigot-114]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_322]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_322]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_322]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_322]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PandaSpigot-114]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PandaSpigot-114]
+	... 7 more
+[22:07:58] [Server thread/INFO]: [[EaglerPluginInstaller]] Loading EaglerPluginInstaller v1.1.4
+[22:07:58] [Server thread/INFO]: [myRPG] Loading myRPG v1.2.0.9
+[22:07:58] [Server thread/INFO]: [mcMMO] Loading mcMMO v1.4.06-b2121
+[22:07:58] [Server thread/INFO]: [scriptcraft] Loading scriptcraft v3.1.12-2016-02-08
+[22:07:58] [Server thread/INFO]: [[EaglerPluginUpdater]] Loading EaglerPluginUpdater v1.1.2
+[22:07:58] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.3.0
+[22:07:58] [Server thread/INFO]: [mcMMO] Enabling mcMMO v1.4.06-b2121
+[22:07:58] [Server thread/ERROR]: [mcMMO] There was an error while enabling mcMMO!
+[22:07:58] [Server thread/WARN]: java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+[22:07:58] [Server thread/WARN]: 	at com.gmail.nossr50.mcMMO.onEnable(mcMMO.java:121)
+[22:07:58] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+[22:07:58] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+[22:07:58] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:454)
+[22:07:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:393)
+[22:07:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:352)
+[22:07:58] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:237)
+[22:07:58] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:603)
+[22:07:58] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.lambda$spin$0(MinecraftServer.java:133)
+[22:07:58] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[22:07:58] [Server thread/INFO]: [mcMMO] Disabling mcMMO v1.4.06-b2121
+[22:07:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:07:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:07:58] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[22:07:58] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[22:07:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:07:58] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[22:07:58] [Server thread/INFO]: Preparing level "world"
+[22:07:58] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:07:58] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:07:58] [Server thread/INFO]: Clear tick list: false
+[22:07:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:07:58] [Server thread/INFO]: Anti X-Ray: true
+[22:07:58] [Server thread/INFO]: 	Engine Mode: 1
+[22:07:58] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:07:58] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:07:58] [Server thread/INFO]: Mob Spawn Range: 4
+[22:07:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:07:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:07:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:07:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:07:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:07:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:07:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:07:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:07:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:07:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:07:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:07:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:07:58] [Server thread/INFO]: Random Lighting Updates: false
+[22:07:58] [Server thread/INFO]: Structure Info Saving: true
+[22:07:58] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:07:58] [Server thread/INFO]: Max Entity Collisions: 8
+[22:07:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:07:58] [Server thread/INFO]: Max TNT Explosions: 100
+[22:07:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:07:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:07:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:07:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:07:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:07:58] [Server thread/INFO]: View Distance: 10
+[22:07:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:07:58] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:07:58] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:07:58] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:07:58] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:07:58] [Server thread/INFO]: World async lighting: false
+[22:07:58] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:07:58] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:07:58] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:07:58] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:07:58] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:07:58] [Server thread/INFO]: Water over lava flow speed: 5
+[22:07:58] [Server thread/INFO]: Fix TNT cannons: false
+[22:07:58] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:07:58] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[22:07:58] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:07:58] [Server thread/INFO]: Clear tick list: false
+[22:07:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:07:58] [Server thread/INFO]: Anti X-Ray: true
+[22:07:58] [Server thread/INFO]: 	Engine Mode: 1
+[22:07:58] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:07:58] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:07:58] [Server thread/INFO]: Mob Spawn Range: 4
+[22:07:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:07:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:07:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:07:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:07:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:07:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:07:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:07:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:07:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:07:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:07:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:07:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:07:58] [Server thread/INFO]: Random Lighting Updates: false
+[22:07:58] [Server thread/INFO]: Structure Info Saving: true
+[22:07:58] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:07:58] [Server thread/INFO]: Max Entity Collisions: 8
+[22:07:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:07:58] [Server thread/INFO]: Max TNT Explosions: 100
+[22:07:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:07:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:07:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:07:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:07:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:07:58] [Server thread/INFO]: View Distance: 10
+[22:07:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:07:58] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[22:07:58] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:07:58] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:07:58] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:07:58] [Server thread/INFO]: World async lighting: false
+[22:07:58] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:07:58] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:07:58] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:07:58] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:07:58] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:07:58] [Server thread/INFO]: Water over lava flow speed: 5
+[22:07:58] [Server thread/INFO]: Fix TNT cannons: false
+[22:07:58] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:07:58] [Server thread/INFO]: Preparing start region for level 0 (Seed: 970198132596963285)
+[22:07:58] [Server thread/INFO]: Preparing start region for level 1 (Seed: -5250375620225295884)
+[22:07:59] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+[22:07:59] [Server thread/INFO]: Check 1 passed
+[22:07:59] [Server thread/INFO]: Check 3 passed
+[22:07:59] [Server thread/INFO]: --------------------------------------------
+[22:07:59] [Server thread/INFO]: --------------------------------------------
+[22:07:59] [Server thread/INFO]: [EaglerPluginInstaller] EaglerPluginInstaller V1.1.5 is now Enabled! :D
+[22:07:59] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin
+[22:07:59] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console
+[22:07:59] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main
+[22:07:59] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add
+[22:07:59] [Server thread/INFO]: --------------------------------------------
+[22:07:59] [Server thread/INFO]: --------------------------------------------
+[22:07:59] [Server thread/INFO]: [myRPG] Enabling myRPG v1.2.0.9
+[22:07:59] [Server thread/WARN]: [myRPG] You cannot use myRPG with this craftbukkit version!
+[22:07:59] [Server thread/ERROR]: Error occurred while enabling myRPG v1.2.0.9 (Is it up to date?)
 java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
 	at com.sharesc.caliog.myRPG$.myRPGPlayerManager.init(myRPGPlayerManager.java:27) ~[?:?]
 	at com.sharesc.caliog.myRPG$.myRPGPlayerManager.<init>(myRPGPlayerManager.java:22) ~[?:?]
@@ -168,9 +204,9 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:603) ~[patched_1.8.8.jar:git-PandaSpigot-114]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.lambda$spin$0(MinecraftServer.java:133) ~[patched_1.8.8.jar:git-PandaSpigot-114]
 	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
-[18:44:42] [Server thread/INFO]: [myRPG] Disabling myRPG v1.2.0.9
-[18:44:42] [Server thread/INFO]: [myRPG] Plugin disabled!
-[18:44:42] [Server thread/ERROR]: Error occurred while disabling myRPG v1.2.0.9 (Is it up to date?)
+[22:07:59] [Server thread/INFO]: [myRPG] Disabling myRPG v1.2.0.9
+[22:07:59] [Server thread/INFO]: [myRPG] Plugin disabled!
+[22:07:59] [Server thread/ERROR]: Error occurred while disabling myRPG v1.2.0.9 (Is it up to date?)
 java.lang.NullPointerException: null
 	at com.sharesc.caliog.myRPG.myRPG.onDisable(myRPG.java:51) ~[?:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:323) ~[patched_1.8.8.jar:git-PandaSpigot-114]
@@ -186,31 +222,74 @@ java.lang.NullPointerException: null
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:603) ~[patched_1.8.8.jar:git-PandaSpigot-114]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.lambda$spin$0(MinecraftServer.java:133) ~[patched_1.8.8.jar:git-PandaSpigot-114]
 	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
-[18:44:42] [Server thread/INFO]: [[EaglerPluginUpdater]] Enabling EaglerPluginUpdater v1.1.2
-[18:44:42] [Server thread/INFO]: [[EaglerPluginInstaller]] Disabling EaglerPluginInstaller v1.1.4
-[18:44:42] [Server thread/INFO]: --------------------------------------------
-[18:44:42] [Server thread/INFO]: --------------------------------------------
-[18:44:42] [Server thread/INFO]: [EaglerPluginInstaller] PluginInstaller V1.1.5 is now Disabled! D:
-[18:44:42] [Server thread/INFO]: --------------------------------------------
-[18:44:42] [Server thread/INFO]: --------------------------------------------
-[18:44:42] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
-[18:44:42] [Server thread/INFO]: Check 1 passed
-[18:44:42] [Server thread/INFO]: Check 3 passed
-[18:44:42] [Server thread/INFO]: --------------------------------------------
-[18:44:42] [Server thread/INFO]: --------------------------------------------
-[18:44:42] [Server thread/INFO]: [EaglerPluginInstaller] EaglerPluginInstaller V1.1.5 is now Enabled! :D
-[18:44:42] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin
-[18:44:42] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console
-[18:44:42] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main
-[18:44:42] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add
-[18:44:42] [Server thread/INFO]: --------------------------------------------
-[18:44:42] [Server thread/INFO]: --------------------------------------------
-[18:44:42] [Server thread/INFO]: --------------------------------------------
-[18:44:42] [Server thread/INFO]: --------------------------------------------
-[18:44:42] [Server thread/INFO]: [EaglerPluginUpdater] EaglerPluginUpdater V1.1.2 is now Enabled! :D
-[18:44:42] [Server thread/INFO]: You do not need to do anything, this plugin will automatically update your PluginUpdater on startup
-[18:44:42] [Server thread/INFO]: --------------------------------------------
-[18:44:42] [Server thread/INFO]: --------------------------------------------
-[18:44:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:44:42] [Server thread/INFO]: Done (1.651s)! For help, type "help" or "?"
-[18:44:42] [Server thread/INFO]: Timings Reset
+[22:07:59] [Server thread/INFO]: [scriptcraft] Enabling scriptcraft v3.1.12-2016-02-08
+[22:07:59] [Server thread/ERROR]: [scriptcraft] Error evaluating scriptcraft/lib/scriptcraft.js: java.io.FileNotFoundException: scriptcraft/lib/scriptcraft.js (No such file or directory)
+[22:07:59] [Server thread/WARN]: javax.script.ScriptException: java.io.FileNotFoundException: scriptcraft/lib/scriptcraft.js (No such file or directory) in <eval> at line number 95 at column number 6
+[22:07:59] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470)
+[22:07:59] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.invokeImpl(NashornScriptEngine.java:392)
+[22:07:59] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.invokeFunction(NashornScriptEngine.java:190)
+[22:07:59] [Server thread/WARN]: 	at org.scriptcraftjs.bukkit.ScriptCraftPlugin.onEnable(ScriptCraftPlugin.java:42)
+[22:07:59] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+[22:07:59] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+[22:07:59] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:454)
+[22:07:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:393)
+[22:07:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:352)
+[22:07:59] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:439)
+[22:07:59] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:403)
+[22:07:59] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:358)
+[22:07:59] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:301)
+[22:07:59] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:603)
+[22:07:59] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.lambda$spin$0(MinecraftServer.java:133)
+[22:07:59] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[22:07:59] [Server thread/WARN]: Caused by: <eval>:95:6 java.io.FileNotFoundException: scriptcraft/lib/scriptcraft.js (No such file or directory)
+[22:07:59] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ECMAException.create(ECMAException.java:113)
+[22:07:59] [Server thread/WARN]: 	at jdk.nashorn.internal.scripts.Script$Recompilation$2$1560AAA$\^eval\_.L:5#__scboot(<eval>:95)
+[22:07:59] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:643)
+[22:07:59] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:494)
+[22:07:59] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:393)
+[22:07:59] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.ScriptObjectMirror.callMember(ScriptObjectMirror.java:199)
+[22:07:59] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.invokeImpl(NashornScriptEngine.java:386)
+[22:07:59] [Server thread/WARN]: 	... 14 more
+[22:07:59] [Server thread/WARN]: Caused by: java.io.FileNotFoundException: scriptcraft/lib/scriptcraft.js (No such file or directory)
+[22:07:59] [Server thread/WARN]: 	at java.io.FileInputStream.open0(Native Method)
+[22:07:59] [Server thread/WARN]: 	at java.io.FileInputStream.open(FileInputStream.java:195)
+[22:07:59] [Server thread/WARN]: 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+[22:07:59] [Server thread/WARN]: 	at java.io.FileReader.<init>(FileReader.java:72)
+[22:07:59] [Server thread/WARN]: 	at jdk.nashorn.internal.scripts.Script$Recompilation$2$1560AAA$\^eval\_.L:5#__scboot(<eval>:90)
+[22:07:59] [Server thread/WARN]: 	... 19 more
+[22:07:59] [Server thread/ERROR]: [scriptcraft] java.io.FileNotFoundException: scriptcraft/lib/scriptcraft.js (No such file or directory) in <eval> at line number 95 at column number 6
+[22:07:59] [Server thread/INFO]: [[EaglerPluginUpdater]] Enabling EaglerPluginUpdater v1.1.2
+[22:07:59] [Server thread/INFO]: [[EaglerPluginInstaller]] Disabling EaglerPluginInstaller v1.1.4
+[22:07:59] [Server thread/INFO]: --------------------------------------------
+[22:07:59] [Server thread/INFO]: --------------------------------------------
+[22:07:59] [Server thread/INFO]: [EaglerPluginInstaller] PluginInstaller V1.1.5 is now Disabled! D:
+[22:07:59] [Server thread/INFO]: --------------------------------------------
+[22:07:59] [Server thread/INFO]: --------------------------------------------
+[22:07:59] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+[22:07:59] [Server thread/INFO]: Check 1 passed
+[22:07:59] [Server thread/INFO]: Check 3 passed
+[22:07:59] [Server thread/INFO]: --------------------------------------------
+[22:07:59] [Server thread/INFO]: --------------------------------------------
+[22:07:59] [Server thread/INFO]: [EaglerPluginInstaller] EaglerPluginInstaller V1.1.5 is now Enabled! :D
+[22:07:59] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin
+[22:07:59] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console
+[22:07:59] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main
+[22:07:59] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add
+[22:07:59] [Server thread/INFO]: --------------------------------------------
+[22:07:59] [Server thread/INFO]: --------------------------------------------
+[22:07:59] [Server thread/INFO]: --------------------------------------------
+[22:07:59] [Server thread/INFO]: --------------------------------------------
+[22:07:59] [Server thread/INFO]: [EaglerPluginUpdater] EaglerPluginUpdater V1.1.2 is now Enabled! :D
+[22:07:59] [Server thread/INFO]: You do not need to do anything, this plugin will automatically update your PluginUpdater on startup
+[22:07:59] [Server thread/INFO]: --------------------------------------------
+[22:07:59] [Server thread/INFO]: --------------------------------------------
+[22:07:59] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[22:07:59] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[22:07:59] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[22:08:00] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[22:08:00] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[22:08:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:08:00] [Server thread/INFO]: Done (1.947s)! For help, type "help" or "?"
+[22:08:00] [Server thread/INFO]: Starting GS4 status listener
+[22:08:00] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[22:08:00] [Server thread/INFO]: Timings Reset
